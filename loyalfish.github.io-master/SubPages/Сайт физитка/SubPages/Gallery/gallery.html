@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    
+    <title>Galery</title>
+</head>
+<body>
+    <header class="mt-4">
+        <br>
+        <div class="container-md">
+            <div class="row">
+                <div class="col-5">
+                    <div class="form-inline">
+                        <img src="img/logo.png" id="logo" id="galery_logo">
+                    </div>
+                </div>
+                <div class="col-5">
+                    <nav class="navbar-nav navbar-expand-lg">
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item active col-6"><h3><a class="benefits header-object navbar-link" href="index.html" id="galery-nav-text">Главная</a></h3></li>
+                        </ul class="navbar-nav mr-auto">
+                    </nav>
+                </div>
+            </div>
+        </div>    
+    </header>
+    <section id="carousel_block">
+        <div class="container">
+            <div class="row"></div>
+            <div class="col-sm"></div>
+            <div id="carousel" class="carousel slide" data-ride="carousel" data-interval="4000">
+                <!-- Индикаторы -->
+                <ol class="carousel-indicators">
+                    <li data-target="#carousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#carousel" data-slide-to="1"></li>
+                    <li data-target="#carousel" data-slide-to="2"></li>
+                    <li data-target="#carousel" data-slide-to="3"></li>
+                    <li data-target="#carousel" data-slide-to="4"></li>
+                    <li data-target="#carousel" data-slide-to="5"></li>
+                    <li data-target="#carousel" data-slide-to="6"></li>
+                    <li data-target="#carousel" data-slide-to="7"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="img-fluid" src="img/1.jpg" alt="...1">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="img-fluid" src="img/2.jpg" alt="...2">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="img-fluid" src="img/3.jpg" alt="...3">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="img-fluid" src="img/4.jpg" alt="...4">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="img-fluid" src="img/5.jpg" alt="...5">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="img-fluid" src="img/6.jpg" alt="...6">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="img-fluid" src="img/7.jpg" alt="...7">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="img-fluid" src="img/8.jpg" alt="...8">
+                    </div>  
+                </div>
+                <!-- Элементы управления -->
+                <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Предыдущий</span>
+                </a>
+                <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Следующий</span>
+                </a>
+
+            </div>
+        </div>
+    </section>
+    <section id="imges_from_galery">
+        <div class="container">
+            <div class="row">
+                <img src="img/1.jpg" class="img_from_carousel" data-target="#carousel" data-slide-to="0">
+                <img src="img/2.jpg" class="img_from_carousel" data-target="#carousel" data-slide-to="1">
+                <img src="img/3.jpg" class="img_from_carousel" data-target="#carousel" data-slide-to="2">
+                <img src="img/4.jpg" class="img_from_carousel" data-target="#carousel" data-slide-to="3">
+            </div>
+            <div class="row">
+                <img src="img/5.jpg" class="img_from_carousel" data-target="#carousel" data-slide-to="4">
+                <img src="img/6.jpg" class="img_from_carousel" data-target="#carousel" data-slide-to="5">
+                <img src="img/7.jpg" class="img_from_carousel" data-target="#carousel" data-slide-to="6">
+                <img src="img/8.jpg" class="img_from_carousel" data-target="#carousel" data-slide-to="7">
+            </div>
+        </div>
+    </section>
+    <footer class="page-footer font-small pt-4" id="footer">
+        <div class="container">
+            <h2 id="text_footer_1">Свяжитесь с нами</h2>
+            <h4 id="text_footer_2">Оставьте свой e-mail адрес и мы свяжемся с вами в ближайшее время.</h4><br><br><br>
+            <div class="form-inline">
+                <input type="email" class="form-control" aria-describedby="emailHelp" placeholder="Введите email" id="submit_input">
+                <button type="button" class="btn btn-primary" id="button-primary">Подтвердить</button>
+            </div>
+            <div class="footer-copyright text-center py-3"><br><br><br>
+			<p id="text_footer_3">HALOVETNAM LTD<br>
+			    66, Dang Van ngu,Dong Da<br>
+                Hanoi, Vietnam<br>
+            </p>
+            </div>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>

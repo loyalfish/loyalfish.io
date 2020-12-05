@@ -1,0 +1,105 @@
+#start_title_text1{
+    font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+    font-size: 40pt;
+    padding-top: 120px;
+    color: white;
+    padding-left: 30px;
+}
+#start_title_text2{
+    font-size: 10pt;
+    color: #696969;
+    padding-left: 30px;
+}
+
+#logo{
+    padding-top: 70px;
+    padding-left: 30px;
+    width: 100px;
+    height: 140px;
+    cursor: pointer;
+}
+
+#index_body{
+    background-image: url(img/background.jpg);
+    background-size: 105%;
+}
+
+#about_body{
+    background-color: #101010;
+}
+
+#about_building{
+    padding-top: 200px;
+    width: 800px;
+}
+
+#about_title_text{
+    padding-top: 300px;
+    padding-left: 90px;
+    color: white;
+    font-size: 40pt;
+}
+
+#about_subtitle_text{
+    padding-left: 90px;
+    color: #7a7373;
+    font-size: 15pt;
+}
+
+#about_learnmore_button{
+    margin-top: 50px;
+    margin-left: 90px;
+    background-color: #4a4747;
+    color: white;
+    width: 170px;
+    height: 40px;
+    border: none;
+}
+
+#webcarousel_body{
+    background-color: white;
+}
+
+#webcarousel_block{
+    position: absolute;
+    background-color: black;
+    width: 100%;
+    height: 35%;
+    bottom: 0;
+    left: 0;
+}
+
+.card{
+    margin-top: 100px;
+}
+
+.carousel .carousel-indicators li {
+    background-color: black;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+  outline: black;
+  background-size: 100%, 100%;
+  border-radius: 50%;
+  background-image: none;
+}
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 45px;
+  color: black;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 45px;
+  color: black;
+}
+
+.carousel{
+    margin-top: 60px;
+}
